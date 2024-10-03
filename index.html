@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Keren created by jossye</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-y: scroll; /* Tambahkan ini untuk memastikan halaman bisa di-scroll */
+      }
+      header {
+        background-color: #333333;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+      }
+      nav {
+        background-color: #fae526;
+        text-align: center;
+        padding: 1em 0;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin: 0 10px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      nav ul li a img {
+        width: 30px;
+        height: 30px;
+      }
+      aside {
+        width: 25%;
+        background-color: #1e1f1e;
+        padding: 20px;
+      }
+      aside ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      aside ul li {
+        background-color: #f4f4f4;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+      aside ul li:hover {
+        background-color: #4fa34f;
+      }
+      aside ul li a {
+        text-decoration: none;
+        color: #333;
+        display: flex;
+        align-items: center;
+        background-color: #f1e259; /* Tambahkan latar belakang */
+        padding: 10px;
+        border-radius: 5px;
+      }
+      aside ul li a img {
+        margin-right: 10px;
+      }
+      main {
+        width: 75%;
+        padding: 20px;
+        text-align: justify; /* Rata kanan kiri */
+        line-height: 1.6; /* Jarak antar baris */
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="color: rgb(103, 165, 103)">PKKMB USU</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/jossyesitanggang">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+              alt="Instagram"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.me/+6283164881426">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+              alt="WhatsApp"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/San Jossye.s">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+              alt="LinkedIn"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div style="display: flex; margin: 20px">
+      <aside>
+        <h2 style="text-align: center; color: rgb(103, 165, 103)">TOPIK</h2>
+        <ul>
+          <li>
+            <a href="#" onclick="showContent('pengertian dan tujuan')">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg"
+                alt="pengertian dan tujuan"
+                width="20"
+                height="20"
+              />
+              Pengertian dan Tujuan PKKMB USU
+            </a>
+          </li>
+          <li>
+            <a href="#" onclick="showContent('peran')">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg"
+                alt="peran"
+                width="20"
+                height="20"
+              />
+              Peran Penting PKKMB dalam Pembentukan Mahasiswa Baru
+            </a>
+          </li>
+          <li>
+            <a href="#" onclick="showContent('agenda')">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg"
+                alt="agenda"
+                width="20"
+                height="20"
+              />
+              Agenda Kegiatan PKKMB USU Tahun Ini
+            </a>
+          </li>
+          <li>
+            <a href="#" onclick="showContent('evaluasi')">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg"
+                alt="evaluasi"
+                width="20"
+                height="20"
+              />
+              Evaluasi PKKMB
+            </a>
+          </li>
+          <li>
+            <a href="#" onclick="showContent('konten_utama')">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg"
+                alt="Konten Utama"
+                width="20"
+                height="20"
+              />
+             Penutup
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <main id="main-content">
+        <h2>Universitas Sumatera Utara</h2>
+        <img
+          src="usu 1.jpg"
+          alt="Universitas Sumatera Utara"
+          style="width: 90%; height: auto; margin-bottom: 20px; display: block; margin: auto;"
+        />
+        <p>
+          <p>
+          <b>Universitas Sumatera Utara (USU) </b>adalah salah satu perguruan tinggi
+          negeri terbesar dan paling berpengaruh di Indonesia, berlokasi di Kota
+          Medan, Sumatera Utara. Didirikan pada tanggal 20 Agustus 1952, USU
+          awalnya dimulai sebagai Fakultas Kedokteran yang didirikan atas
+          inisiatif masyarakat dan pemerintah setempat. 
+          <p>Seiring berjalannya
+            waktu, universitas ini berkembang pesat dan kini memiliki berbagai
+            fakultas yang menawarkan program studi di berbagai bidang ilmu,
+            termasuk ilmu sosial, sains, teknik, kedokteran, hukum, dan banyak
+            lagi. Sebagai pusat pendidikan yang unggul, USU berkomitmen untuk
+            menyediakan pendidikan berkualitas, memajukan penelitian, dan
+            berkontribusi secara signifikan dalam pengabdian kepada masyarakat.
+            Dengan visi untuk menjadi universitas yang bertaraf internasional, USU
+            terus meningkatkan kualitas akademik dan fasilitasnya, serta menjalin
+            kerjasama dengan berbagai institusi di dalam dan luar negeri. USU juga
+            berperan penting dalam mencetak lulusan-lulusan yang kompeten dan siap
+            bersaing di dunia kerja, baik di tingkat nasional maupun global.
+            
+            <p>Melalui berbagai kegiatan akademik dan non-akademik, mahasiswa USU
+            dibekali dengan pengetahuan, keterampilan, dan nilai-nilai yang
+            relevan untuk menghadapi tantangan masa depan. Dengan demikian,
+            Universitas Sumatera Utara tidak hanya menjadi kebanggaan Sumatera
+            Utara tetapi juga aset penting bagi pembangunan pendidikan di
+            Indonesia.</p>
+        </p>
+      </main>
+    </div>
+    <footer>
+      <p>San Jossye Sitanggang| 241402011 <a href="#privacy-policy">Kebijakan Privasi</a> | <a href="#terms-of-service">Syarat dan Ketentuan</a></>
+      <p>Hubungi gue untuk info lebih lanjut: <a href="https://www.instagram.com/jossyesitanggang">@jossyesitanggang</a> | Telepon: +6283164881426</p></p>
+    </footer>
+    <script>
+      function showContent(content) {
+        const mainContent = document.getElementById("main-content");
+if (content === "pengertian dan tujuan") {
+  mainContent.innerHTML = `
+    <h2>Pengertian dan Tujuan PKKMB USU</h2>
+    <ul>
+   <img src="zx.jpg" alt="PKKMB USU" style="width: 90%; height: auto; margin-bottom: 20px; display: block; margin: auto;" />
+    <p><b>PKKMB (Pengenalan Kehidupan Kampus bagi Mahasiswa Baru)</b> di Universitas Sumatera Utara (USU) adalah program orientasi yang diadakan untuk mahasiswa baru. Program ini bertujuan untuk memperkenalkan mahasiswa baru pada lingkungan kampus, termasuk sistem akademik, fasilitas, serta budaya dan nilai-nilai yang ada di USU. Melalui PKKMB, mahasiswa baru diharapkan dapat beradaptasi dengan cepat terhadap kehidupan kampus dan memahami hak dan kewajiban mereka sebagai mahasiswa.<p><b>Tujuan PKKMB USU</b></p>PKKMB USU memiliki beberapa tujuan utama, antara lain: 
+<p>
+  <ul>
+  <li><b>Memperkenalkan Sistem Pendidikan:</b> Mahasiswa baru diperkenalkan dengan sistem pendidikan yang diterapkan di USU, termasuk kurikulum, metode pembelajaran, dan evaluasi.</li>
+    <li><b>Penguatan Identitas Mahasiswa:</b> Program ini bertujuan untuk membentuk identitas mahasiswa USU yang berkarakter, berintegritas, dan memiliki jiwa kebangsaan.</li>
+    <li><b>Membangun Keterampilan Sosial:</b> PKKMB membantu mahasiswa baru dalam mengembangkan keterampilan sosial, seperti komunikasi, kerjasama, dan kepemimpinan, yang akan berguna selama masa studi dan di masa depan.</li>
+    <li><b>Pengenalan Fasilitas Kampus:</b> Mahasiswa baru diperkenalkan dengan berbagai fasilitas yang tersedia di kampus, seperti perpustakaan, laboratorium, pusat kegiatan mahasiswa, dan lain-lain.</li>
+    <li><b>Pembekalan Mental dan Spiritual:</b> PKKMB juga memberikan pembekalan mental dan spiritual agar mahasiswa siap menghadapi tantangan akademik dan kehidupan kampus.</li>
+    <li><b>Membentuk Jaringan Sosial:</b> Melalui berbagai kegiatan yang diadakan, mahasiswa baru dapat membangun jaringan sosial dengan sesama mahasiswa, dosen, dan pihak kampus lainnya.</li>
+  `;
+
+        } else if (content === "peran") {
+          mainContent.innerHTML = `
+  <h2>Peran Penting PKKMB dalam Pembentukan Mahasiswa Baru</h2>
+  <img src="asa.jpg" alt="Peran PKKMB" style="width: 90%; height: auto; margin-bottom: 20px; display: block; margin: auto;" />
+  <p><p>
+    <b>Pengenalan Kehidupan Kampus bagi Mahasiswa Baru (PKKMB)</b> memainkan peran krusial dalam membentuk mahasiswa baru sebagai bagian dari komunitas akademik di Universitas Sumatera Utara (USU). PKKMB bukan sekadar serangkaian acara seremonial, tetapi merupakan langkah awal bagi mahasiswa baru untuk mengenal dan memahami lingkungan kampus, budaya akademik, serta nilai-nilai yang dijunjung tinggi oleh universitas.
+</p>
+
+<p>
+    Salah satu peran utama PKKMB adalah membantu mahasiswa baru beradaptasi dengan kehidupan kampus yang sangat berbeda dari lingkungan sekolah menengah. Melalui kegiatan ini, mahasiswa diperkenalkan pada tata cara perkuliahan, sistem administrasi, serta berbagai fasilitas yang tersedia di kampus. Selain itu, PKKMB juga memberikan pengetahuan dasar mengenai organisasi mahasiswa, yang memungkinkan mereka untuk mulai berpartisipasi aktif dalam kegiatan-kegiatan kemahasiswaan.
+</p>
+
+<p>
+    PKKMB juga berfungsi sebagai sarana untuk menanamkan nilai-nilai luhur, seperti integritas, disiplin, tanggung jawab, dan semangat kebersamaan. Melalui berbagai sesi, mahasiswa baru didorong untuk mengembangkan sikap kritis, inovatif, dan berorientasi pada solusi—kompetensi yang sangat dibutuhkan dalam kehidupan akademik dan profesional. Selain itu, program ini juga memberikan kesempatan bagi mahasiswa baru untuk menjalin persahabatan dan membangun jaringan yang akan mendukung mereka selama masa studi di USU.
+</p>
+
+<p>
+    Dengan demikian, PKKMB tidak hanya membekali mahasiswa baru dengan pengetahuan dan keterampilan yang diperlukan untuk sukses di dunia akademik, tetapi juga membentuk karakter dan mentalitas mereka agar siap menghadapi tantangan di masa depan. Peran penting PKKMB dalam pembentukan mahasiswa baru ini menjadikannya fondasi yang kokoh bagi perjalanan mereka selama menempuh pendidikan di Universitas Sumatera Utara.
+</p>
+</p>
+`;
+        } else if (content === "agenda") {
+          mainContent.innerHTML = `
+  <h2>Agenda Kegiatan PKKMB USU Tahun Ini</h2>
+<img src="agen.jpg" alt="Agenda PKKMB" style="width: 90%; height: auto; margin-bottom: 20px; display: block; margin: auto;" />
+<p>Agenda kegiatan PKKMB USU tahun ini dirancang untuk memberikan pengalaman yang menyeluruh bagi mahasiswa baru agar mereka dapat lebih mengenal lingkungan kampus dan mempersiapkan diri menghadapi kehidupan akademik. Berikut adalah gambaran umum mengenai agenda kegiatan PKKMB USU:</p>
+<ul style="padding-left: 20px; line-height: 1.6;">
+  <li>
+    <b>Pembukaan dan Sambutan Rektor</b>
+    <p style="margin-top: 5px;">Kegiatan ini dimulai dengan upacara pembukaan yang dihadiri oleh seluruh mahasiswa baru. Rektor Universitas Sumatera Utara memberikan sambutan dan menyampaikan visi serta harapan untuk mahasiswa baru.</p>
+  </li>
+  <li>
+    <b>Pengenalan Fakultas dan Program Studi</b>
+    <p style="margin-top: 5px;">Mahasiswa baru diperkenalkan dengan fakultas dan program studi masing-masing. Setiap fakultas mengadakan sesi pengenalan yang mencakup penjelasan tentang kurikulum, sistem pembelajaran, dan fasilitas yang tersedia.</p>
+  </li>
+  <li>
+    <b>Pengenalan Layanan dan Fasilitas Kampus</b>
+    <p style="margin-top: 5px;">Kegiatan ini mencakup tur kampus dan pengenalan berbagai layanan yang tersedia di USU, seperti perpustakaan, pusat kesehatan, laboratorium, pusat kegiatan mahasiswa, dan fasilitas olahraga.</p>
+  </li>
+  <li>
+    <b>Pengenalan Organisasi Mahasiswa dan Unit Kegiatan Mahasiswa (UKM)</b>
+    <p style="margin-top: 5px;">Mahasiswa baru diperkenalkan dengan berbagai organisasi dan unit kegiatan mahasiswa yang ada di USU. Kegiatan ini memberikan kesempatan bagi mahasiswa untuk bergabung dan aktif dalam kegiatan ekstrakurikuler sesuai minat dan bakat mereka.</p>
+  </li>
+  <li>
+    <b>Kegiatan Kebersamaan dan Outbound</b>
+    <p style="margin-top: 5px;">Untuk membangun kekompakan dan kerjasama di antara mahasiswa baru, diadakan kegiatan outbound dan permainan kelompok yang melibatkan seluruh peserta PKKMB.</p>
+  </li>
+  <li>
+    <b>Penutupan dan Refleksi Kegiatan</b>
+    <p style="margin-top: 5px;">Setelah rangkaian kegiatan selesai, PKKMB ditutup dengan acara refleksi dan penutupan. Mahasiswa baru diajak untuk merenungkan pengalaman mereka selama PKKMB dan merencanakan langkah-langkah selanjutnya dalam perjalanan akademik mereka.</p>
+  </li>
+</ul>
+
+`;
+ 
+        } else if (content === "evaluasi") {
+          mainContent.innerHTML = `
+    <h2>Evaluasi PKKMB</h2>
+    <img src="pkkmb.webp" alt="Evaluasi PKKMB" style="width: 90%; height: auto; margin-bottom: 20px; display: block; margin: auto;" />
+    <p>PKKMB USU berjalan dengan baik, meski ada beberapa kendala teknis, terutama dalam sesi online. Partisipasi mahasiswa baru cukup tinggi, namun keterlibatan dalam diskusi dan kegiatan interaktif masih perlu ditingkatkan. Secara keseluruhan, mahasiswa merasa lebih siap menghadapi kehidupan kampus, tetapi dampak jangka panjang masih perlu ditinjau lebih lanjut.</p>
+    <b>Perbaikan yang Diperlukan</b>
+    <ul style="padding-left: 20px; line-height: 1.6;">
+  <li>
+    <p>
+    <b>Peningkatan Kualitas Penyampaian Materi: </b>
+    <p style="margin-top: 5px;">  Perlu adanya perbaikan dalam penyampaian materi secara online, terutama dalam aspek teknis dan interaksi. Beberapa peserta mengalami kendala dalam mengakses materi, yang disebabkan oleh masalah koneksi atau platform yang kurang ramah pengguna. Selain itu, diperlukan pendekatan yang lebih interaktif untuk membuat materi lebih menarik dan mudah dipahami, seperti menggunakan media visual yang lebih variatif, kuis interaktif, atau diskusi langsung. Dengan memperbaiki aspek ini, diharapkan semua peserta dapat menerima informasi secara optimal, tanpa hambatan, dan merasa lebih terlibat dalam proses pembelajaran.</p>
+  </li>
+  <li>
+    <b>Meningkatkan Keterlibatan Mahasiswa: </b>
+    <p style="margin-top: 5px;">Keterlibatan mahasiswa dalam kegiatan PKKMB USU cukup baik, namun masih ada ruang untuk peningkatan, terutama dalam sesi diskusi dan kegiatan interaktif. Beberapa mahasiswa tampak kurang aktif, mungkin karena rasa malu, kurangnya pemahaman tentang pentingnya partisipasi, atau kendala teknis. Untuk mengatasi hal ini, diperlukan strategi yang lebih efektif seperti pendekatan yang lebih personal, misalnya dengan pembagian kelompok kecil yang dipandu oleh mentor, atau kegiatan yang lebih menarik seperti games edukatif dan simulasi. </p>
+  </li>
+  <li>
+    <b>Evaluasi Lanjutan:</b>
+    <p style="margin-top: 5px;">Evaluasi jangka pendek PKKMB USU menunjukkan bahwa mahasiswa baru merasa lebih siap untuk memulai perkuliahan. Namun, untuk benar-benar memahami dampak program ini, diperlukan evaluasi lanjutan yang dilakukan beberapa bulan setelah kegiatan. Evaluasi ini akan melihat bagaimana PKKMB mempengaruhi adaptasi mahasiswa terhadap kehidupan kampus, keterlibatan mereka dalam kegiatan akademik dan non-akademik, serta perkembangan mereka secara keseluruhan. 
+</p>
+</ul>
+`;
+
+        } else if (content === "konten_utama") {
+          mainContent.innerHTML = `
+    <h2>Penutup</h2>
+    <img src="usu.jpeg" alt="Evaluasi PKKMB" style="width: 85%; height: auto; margin-bottom: 20px; display: block; margin: auto;" />
+    <p>PKKMB USU merupakan langkah awal yang sangat penting bagi mahasiswa baru dalam mengenal lingkungan kampus dan menyesuaikan diri dengan kehidupan perkuliahan. Melalui serangkaian kegiatan yang dirancang untuk membekali mahasiswa dengan pengetahuan dan keterampilan yang dibutuhkan, program ini telah berhasil memberikan gambaran yang jelas tentang dunia akademis dan sosial di Universitas Sumatera Utara.</p>
+      <p>Meskipun ada beberapa tantangan yang dihadapi, terutama dalam pelaksanaan secara online, semangat dan antusiasme para peserta menunjukkan bahwa PKKMB USU telah memberikan dampak positif yang signifikan. Harapannya, kegiatan ini dapat terus ditingkatkan di masa mendatang, sehingga mampu memberikan pengalaman yang lebih baik dan lebih bermanfaat bagi generasi mahasiswa baru berikutnya.</p>
+          <p>Sebagai mahasiswa baru, perjalanan Anda di USU baru saja dimulai. Dengan bekal yang telah diperoleh dari PKKMB, semoga Anda dapat menghadapi tantangan akademis dan non-akademis dengan lebih percaya diri dan siap untuk mencapai kesuksesan di masa depan. Selamat datang dan selamat menempuh pendidikan di Universitas Sumatera Utara!
+
+</p>
+    
+</ul>
+`;
+        }
+      }
+    </script>
+  </body>
+</html>
